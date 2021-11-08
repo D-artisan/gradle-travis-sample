@@ -30,8 +30,9 @@ public abstract class Client {
         this.clientID = clientID;
     }
 
-
-
+    public ServiceLevel getServiceLevel() {
+        return serviceLevel;
+    }
 
     @Override
     public String toString() {
